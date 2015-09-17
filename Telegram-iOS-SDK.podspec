@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = 'Pod/Classes/ARC/**/*'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++ -ObjC' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++ -ObjC', 'ENABLE_BITCODE' => 'NO' }
   s.source_files = 'Pod/Classes/**/*.{h,m,c,cpp,mm}'
   s.compiler_flags = '-Wall'
   s.resource_bundles = {
