@@ -9,14 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "Telegram-iOS-SDK"
-  s.version          = "0.0.5"
+  s.version          = "0.0.6"
   s.summary          = "Telegram-iOS-SDK. Source code of Telegram 2.8 ported to pods"
   s.description      = <<-DESC
                        arm64 compatible. Work in progress.
                        Feel free to contribute.
                        DESC
   s.homepage         = "https://github.com/batkov/Telegram-iOS-SDK"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'GPLv2'
   s.author           = { "Hariton Batkov" => "batkov@i.ua" }
   s.source           = { :git => "https://github.com/batkov/Telegram-iOS-SDK.git", :tag => s.version.to_s }
